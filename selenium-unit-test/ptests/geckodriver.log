@@ -1,0 +1,56 @@
+1664974636045	geckodriver	INFO	Listening on 127.0.0.1:52831
+1664974639171	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52832" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileyjuLyH"
+1664974641432	Marionette	INFO	Marionette enabled
+1664974641459	Marionette	INFO	Listening on port 52841
+Read port: 52841
+WebDriver BiDi listening on ws://127.0.0.1:52832
+1664974642088	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileyjuLyH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52832/devtools/browser/1d057d9d-bb60-4233-9509-bea8bed978e8
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1f6uSiYLE/SgwXNDU/VDI5Aj/08SWkB, line 1: unreachable code after return statement
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1f6uSiYLE/SgwXNDU/VDI5Aj/08SWkB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1f6uSiYLE/SgwXNDU/VDI5Aj/08SWkB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1664974652979	Marionette	INFO	Stopped listening on port 52841
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1664974698579	geckodriver	INFO	Listening on 127.0.0.1:52919
+1664974701705	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52920" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileGMtX2O"
+1664974703009	Marionette	INFO	Marionette enabled
+1664974703019	Marionette	INFO	Listening on port 52929
+Read port: 52929
+WebDriver BiDi listening on ws://127.0.0.1:52920
+1664974703392	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileGMtX2O\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52920/devtools/browser/0054b17c-969c-4e9d-96c3-e1dfe24de4de
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1f6uSiYLE/SgwXNDU/VDI5Aj/08SWkB, line 1: unreachable code after return statement
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1f6uSiYLE/SgwXNDU/VDI5Aj/08SWkB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1f6uSiYLE/SgwXNDU/VDI5Aj/08SWkB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1f6uSiYLE/SgwXNDU/VDI5Aj/08SWkB, line 1: unreachable code after return statement
+1664974712864	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1f6uSiYLE/SgwXNDU/VDI5Aj/08SWkB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1f6uSiYLE/SgwXNDU/VDI5Aj/08SWkB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1XuuSiYLE/SgwXNDU/Q2k6Z0/xULzMB, line 1: unreachable code after return statement
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1XuuSiYLE/SgwXNDU/Q2k6Z0/xULzMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1XuuSiYLE/SgwXNDU/Q2k6Z0/xULzMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1664974817781	Marionette	INFO	Stopped listening on port 52929
+[Parent 8048, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1664974891129	geckodriver	INFO	Listening on 127.0.0.1:53038
+1664974894174	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53039" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile4p4LyX"
+1664974895342	Marionette	INFO	Marionette enabled
+1664974895352	Marionette	INFO	Listening on port 53048
+Read port: 53048
+WebDriver BiDi listening on ws://127.0.0.1:53039
+1664974895752	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile4p4LyX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53039/devtools/browser/c7a67b97-a63e-4166-a60a-1be549ea3bb6
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1f6uSiYLE/SgwXNDU/VDI5Aj/08SWkB, line 1: unreachable code after return statement
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1f6uSiYLE/SgwXNDU/VDI5Aj/08SWkB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1f6uSiYLE/SgwXNDU/VDI5Aj/08SWkB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1f6uSiYLE/SgwXNDU/VDI5Aj/08SWkB, line 1: unreachable code after return statement
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1f6uSiYLE/SgwXNDU/VDI5Aj/08SWkB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1664974905007	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1f6uSiYLE/SgwXNDU/VDI5Aj/08SWkB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1XuuSiYLE/SgwXNDU/Q2k6Z0/xULzMB, line 1: unreachable code after return statement
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1XuuSiYLE/SgwXNDU/Q2k6Z0/xULzMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.myntra.com/H5Me-/pUj/ikgH/S0/qJBLD8/u3a1XuuSiYLE/SgwXNDU/Q2k6Z0/xULzMB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1664974959463	Marionette	INFO	Stopped listening on port 53048
+[Parent 1216, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
