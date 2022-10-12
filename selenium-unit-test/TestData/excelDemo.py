@@ -9,7 +9,7 @@ cell = sheet.cell(row=1, column=2)
 
 print(cell.value)
 
-sheet.cell(row=2, column=2).value = 'kasyap'
+sheet.cell(row=2, column=2).value = 'chennai'
 
 book.save(r"C:\Users\Lenovo\Downloads\pypxl.xlsx")
 
