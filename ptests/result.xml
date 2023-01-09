@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="119.499" timestamp="2023-01-09T01:40:48.110533" hostname="DESKTOP-84DPPG6"><testcase classname="test_myntra.Testmyntra" name="test_add_saree_to_cart" time="119.357"><failure message="selenium.common.exceptions.TimeoutException: Message: &#10;Stacktrace:&#10;Backtrace:&#10;&#09;Ordinal0 [0x0114ACD3+2075859]&#10;&#09;Ordinal0 [0x010DEE61+1633889]&#10;&#09;Ordinal0 [0x00FDB7BD+571325]&#10;&#09;Ordinal0 [0x0100AC2F+764975]&#10;&#09;Ordinal0 [0x0100AE1B+765467]&#10;&#09;Ordinal0 [0x0103D0F2+970994]&#10;&#09;Ordinal0 [0x01027364+881508]&#10;&#09;Ordinal0 [0x0103B56A+963946]&#10;&#09;Ordinal0 [0x01027136+880950]&#10;&#09;Ordinal0 [0x00FFFEFD+720637]&#10;&#09;Ordinal0 [0x01000F3F+724799]&#10;&#09;GetHandleVerifier [0x013FEED2+2769538]&#10;&#09;GetHandleVerifier [0x013F0D95+2711877]&#10;&#09;GetHandleVerifier [0x011DA03A+521194]&#10;&#09;GetHandleVerifier [0x011D8DA0+516432]&#10;&#09;Ordinal0 [0x010E682C+1665068]&#10;&#09;Ordinal0 [0x010EB128+1683752]&#10;&#09;Ordinal0 [0x010EB215+1683989]&#10;&#09;Ordinal0 [0x010F6484+1729668]&#10;&#09;BaseThreadInitThunk [0x761D7D69+25]&#10;&#09;RtlInitializeExceptionChain [0x7756BB9B+107]&#10;&#09;RtlClearBits [0x7756BB1F+191]">self = &lt;ptests.test_myntra.Testmyntra object at 0x000002764077AFB0&gt;
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="115.198" timestamp="2023-01-09T08:09:24.903033" hostname="DESKTOP-84DPPG6"><testcase classname="test_myntra.Testmyntra" name="test_add_saree_to_cart" time="115.099"><failure message="selenium.common.exceptions.TimeoutException: Message: &#10;Stacktrace:&#10;Backtrace:&#10;&#09;Ordinal0 [0x00EBACD3+2075859]&#10;&#09;Ordinal0 [0x00E4EE61+1633889]&#10;&#09;Ordinal0 [0x00D4B7BD+571325]&#10;&#09;Ordinal0 [0x00D7AC2F+764975]&#10;&#09;Ordinal0 [0x00D7AE1B+765467]&#10;&#09;Ordinal0 [0x00DAD0F2+970994]&#10;&#09;Ordinal0 [0x00D97364+881508]&#10;&#09;Ordinal0 [0x00DAB56A+963946]&#10;&#09;Ordinal0 [0x00D97136+880950]&#10;&#09;Ordinal0 [0x00D6FEFD+720637]&#10;&#09;Ordinal0 [0x00D70F3F+724799]&#10;&#09;GetHandleVerifier [0x0116EED2+2769538]&#10;&#09;GetHandleVerifier [0x01160D95+2711877]&#10;&#09;GetHandleVerifier [0x00F4A03A+521194]&#10;&#09;GetHandleVerifier [0x00F48DA0+516432]&#10;&#09;Ordinal0 [0x00E5682C+1665068]&#10;&#09;Ordinal0 [0x00E5B128+1683752]&#10;&#09;Ordinal0 [0x00E5B215+1683989]&#10;&#09;Ordinal0 [0x00E66484+1729668]&#10;&#09;BaseThreadInitThunk [0x76207D69+25]&#10;&#09;RtlInitializeExceptionChain [0x77C8BB9B+107]&#10;&#09;RtlClearBits [0x77C8BB1F+191]">self = &lt;ptests.test_myntra.Testmyntra object at 0x000002336CB6AF80&gt;
 
     def test_add_saree_to_cart(self):
         log = self.get_logger()
@@ -19,7 +19,7 @@
         time.sleep(5)
         num_inp = mlp.enter_number()
         log.info("Enter the number")
-        num_inp.send_keys(7416416647)
+        num_inp.send_keys(6304459525)
         log.info("Number entered")
         num_inp.send_keys(Keys.ENTER)
         #time.sleep(5)
@@ -43,8 +43,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
     wait1.until(expected_conditions.element_to_be_clickable((By.XPATH, element)))
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
-self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="4b45f4cb9e3fa8273239f78f947c06b8")&gt;
-method = &lt;function element_to_be_clickable.&lt;locals&gt;._predicate at 0x000002764089CEE0&gt;
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="be3da807df8083338f81c23e614f4918")&gt;
+method = &lt;function element_to_be_clickable.&lt;locals&gt;._predicate at 0x000002336CC8CEE0&gt;
 message = ''
 
     def until(self, method, message: str = ""):
@@ -75,27 +75,27 @@ message = ''
 E       selenium.common.exceptions.TimeoutException: Message: 
 E       Stacktrace:
 E       Backtrace:
-E       	Ordinal0 [0x0114ACD3+2075859]
-E       	Ordinal0 [0x010DEE61+1633889]
-E       	Ordinal0 [0x00FDB7BD+571325]
-E       	Ordinal0 [0x0100AC2F+764975]
-E       	Ordinal0 [0x0100AE1B+765467]
-E       	Ordinal0 [0x0103D0F2+970994]
-E       	Ordinal0 [0x01027364+881508]
-E       	Ordinal0 [0x0103B56A+963946]
-E       	Ordinal0 [0x01027136+880950]
-E       	Ordinal0 [0x00FFFEFD+720637]
-E       	Ordinal0 [0x01000F3F+724799]
-E       	GetHandleVerifier [0x013FEED2+2769538]
-E       	GetHandleVerifier [0x013F0D95+2711877]
-E       	GetHandleVerifier [0x011DA03A+521194]
-E       	GetHandleVerifier [0x011D8DA0+516432]
-E       	Ordinal0 [0x010E682C+1665068]
-E       	Ordinal0 [0x010EB128+1683752]
-E       	Ordinal0 [0x010EB215+1683989]
-E       	Ordinal0 [0x010F6484+1729668]
-E       	BaseThreadInitThunk [0x761D7D69+25]
-E       	RtlInitializeExceptionChain [0x7756BB9B+107]
-E       	RtlClearBits [0x7756BB1F+191]
+E       	Ordinal0 [0x00EBACD3+2075859]
+E       	Ordinal0 [0x00E4EE61+1633889]
+E       	Ordinal0 [0x00D4B7BD+571325]
+E       	Ordinal0 [0x00D7AC2F+764975]
+E       	Ordinal0 [0x00D7AE1B+765467]
+E       	Ordinal0 [0x00DAD0F2+970994]
+E       	Ordinal0 [0x00D97364+881508]
+E       	Ordinal0 [0x00DAB56A+963946]
+E       	Ordinal0 [0x00D97136+880950]
+E       	Ordinal0 [0x00D6FEFD+720637]
+E       	Ordinal0 [0x00D70F3F+724799]
+E       	GetHandleVerifier [0x0116EED2+2769538]
+E       	GetHandleVerifier [0x01160D95+2711877]
+E       	GetHandleVerifier [0x00F4A03A+521194]
+E       	GetHandleVerifier [0x00F48DA0+516432]
+E       	Ordinal0 [0x00E5682C+1665068]
+E       	Ordinal0 [0x00E5B128+1683752]
+E       	Ordinal0 [0x00E5B215+1683989]
+E       	Ordinal0 [0x00E66484+1729668]
+E       	BaseThreadInitThunk [0x76207D69+25]
+E       	RtlInitializeExceptionChain [0x77C8BB9B+107]
+E       	RtlClearBits [0x77C8BB1F+191]
 
 ..\..\robot_frame_work\venv\lib\site-packages\selenium\webdriver\support\wait.py:90: TimeoutException</failure></testcase></testsuite></testsuites>

@@ -1,6 +1,7 @@
 import time
 
 from selenium.webdriver.common.by import By
+from selenium.webdriver import ActionChains
 
 
 class cheap_shirts_add_to_cart:
@@ -8,6 +9,7 @@ class cheap_shirts_add_to_cart:
     def __init__(self,driver):
 
         self.driver = driver
+        self.A = ActionChains(self.driver)
 
     click_on_item = (By.XPATH,'//li[@class="product-base"]/a')
     add_to_cart = (By.XPATH,'//span[@class="myntraweb-sprite pdp-whiteBag sprites-whiteBag pdp-flex pdp-center"]')
@@ -22,11 +24,15 @@ class cheap_shirts_add_to_cart:
 
             item.click()
             Windows_opened = self.driver.window_handles
+            print(len(Windows_opened))
             self.driver.switch_to.window(Windows_opened[1])
             time.sleep(5)
-            self.driver.find_element(*cheap_shirts_add_to_cart.select_size).click()
+            size = self.driver.find_element(*cheap_shirts_add_to_cart.select_size)
+            self.A.move_to_element(size).click().perform()
             time.sleep(5)
-            self.driver.find_element(*cheap_shirts_add_to_cart.add_to_cart).click()
+            cart_adding = self.driver.find_element(*cheap_shirts_add_to_cart.add_to_cart)
+            self.A.move_to_element(cart_adding).click().perform()
+            Windows_opened = Windows_opened[:len(Windows_opened)-1]
             self.driver.switch_to.window(Windows_opened[0])
 
         time.sleep(10)

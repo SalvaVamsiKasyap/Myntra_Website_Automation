@@ -36,7 +36,7 @@ class Testmyntra(BaseClass):
         time.sleep(5)
         num_inp = mlp.enter_number()
         log.info("Enter the number")
-        num_inp.send_keys(7416416647)
+        num_inp.send_keys(6304459525)
         log.info("Number entered")
         num_inp.send_keys(Keys.ENTER)
         #time.sleep(5)
